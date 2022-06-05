@@ -13,6 +13,10 @@
 		EF14DEED284C40DA0007DD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF14DEEB284C40DA0007DD95 /* Main.storyboard */; };
 		EF14DEEF284C40DA0007DD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF14DEEE284C40DA0007DD95 /* Assets.xcassets */; };
 		EF14DEF2284C40DA0007DD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF14DEF0284C40DA0007DD95 /* LaunchScreen.storyboard */; };
+		EF14DEFB284C41330007DD95 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14DEF9284C41330007DD95 /* ListCollectionViewCell.swift */; };
+		EF14DEFC284C41330007DD95 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF14DEFA284C41330007DD95 /* ListCollectionViewCell.xib */; };
+		EF14DEFF284C42020007DD95 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF14DEFD284C42020007DD95 /* HorizontalCollectionViewCell.swift */; };
+		EF14DF00284C42020007DD95 /* HorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF14DEFE284C42020007DD95 /* HorizontalCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EF14DEEE284C40DA0007DD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF14DEF1284C40DA0007DD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF14DEF3284C40DA0007DD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF14DEF9284C41330007DD95 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF14DEFA284C41330007DD95 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		EF14DEFD284C42020007DD95 /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF14DEFE284C42020007DD95 /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				EF14DEE7284C40DA0007DD95 /* SceneDelegate.swift */,
 				EF14DEE9284C40DA0007DD95 /* ViewController.swift */,
 				EF14DEEB284C40DA0007DD95 /* Main.storyboard */,
+				EF14DEF9284C41330007DD95 /* ListCollectionViewCell.swift */,
+				EF14DEFA284C41330007DD95 /* ListCollectionViewCell.xib */,
+				EF14DEFD284C42020007DD95 /* HorizontalCollectionViewCell.swift */,
+				EF14DEFE284C42020007DD95 /* HorizontalCollectionViewCell.xib */,
 				EF14DEEE284C40DA0007DD95 /* Assets.xcassets */,
 				EF14DEF0284C40DA0007DD95 /* LaunchScreen.storyboard */,
 				EF14DEF3284C40DA0007DD95 /* Info.plist */,
@@ -125,8 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF14DF00284C42020007DD95 /* HorizontalCollectionViewCell.xib in Resources */,
 				EF14DEF2284C40DA0007DD95 /* LaunchScreen.storyboard in Resources */,
 				EF14DEEF284C40DA0007DD95 /* Assets.xcassets in Resources */,
+				EF14DEFC284C41330007DD95 /* ListCollectionViewCell.xib in Resources */,
 				EF14DEED284C40DA0007DD95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF14DEFF284C42020007DD95 /* HorizontalCollectionViewCell.swift in Sources */,
 				EF14DEEA284C40DA0007DD95 /* ViewController.swift in Sources */,
 				EF14DEE6284C40DA0007DD95 /* AppDelegate.swift in Sources */,
+				EF14DEFB284C41330007DD95 /* ListCollectionViewCell.swift in Sources */,
 				EF14DEE8284C40DA0007DD95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
